@@ -85,9 +85,9 @@
                 </div>
                 <br/>
                 <div>
-                    <h3>Biorritmes PROVA</h3>
+                    <h3>Biorritmes PROVAAA</h3>
                     <p>
-                    Esta pagina es para poder calcular el biorritmo de las personas segun su fecha de nacimiento.
+                    Esta pagina es para poder calcular el biorritmo de las personas segun su fecha de nacimientooo.
                     </p>
                     <br/><br/>
                     <p>
