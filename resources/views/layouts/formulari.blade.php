@@ -30,9 +30,9 @@
 
     </style>
 	</head>
-	<body style="background: #FFCECE">
-		<div class="title" style="text-align:center; color: #C21902" >
-			<h1 style="font-size : 84px">Calculador de Biorritmes</h1>
+	<body style="background: #FFCECE;text-align:center">
+		<div class="title" style="color: #C21902 ;margin-bottom: 30px;font-size : 84px" >
+			Calculador de Biorritmes
 		</div>
 		<div class="texto" style="padding: 2%; text-align: justify; border: 1px solid #9B1401; border-radius: 20px; margin: 2%">   <!-- Porcentage = responsive -->
 			<p> Els bioritmes (del grec bios, vida i rhythmos, cadència) denota la variació en la funció i en alguns dels elements estructurals d’un organisme que es dóna de forma periòdica i predictible.
