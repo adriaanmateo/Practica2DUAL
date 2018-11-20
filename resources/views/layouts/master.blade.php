@@ -81,25 +81,24 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://es.wikipedia.org/wiki/Biorritmo">¿Que son?</a>
-                    <a href="formulari.blade.php">Registrarme</a>
-                    <a href="https://es.wikipedia.org/wiki/Biorritmo#Publicaciones_cient%C3%ADficas">Noticias</a>
+                    <a href="https://es.wikipedia.org/wiki/Biorritmo">¿Què són?</a>
+                    <a href="formulari.blade.php">Registrar-me</a>
+                    <a href="https://es.wikipedia.org/wiki/Biorritmo#Publicaciones_cient%C3%ADficas">Noticies</a>
                 </div>
                 <br/>
                 <div>
-                    <h3>Biorritmes PROVA</h3>
                     <p>
-                    Esta pagina es para poder calcular el biorritmo de las personas segun su fecha de nacimiento.
+                    Aquesta pàgina serveix per calcula el biorritme d'una persona a partir de la seva data de naixement.
                     </p>
                     <br/><br/>
                     <p>
                     <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/panel-120472594-image-3c37067ef9f3e67f-320-320.png" width="20%" height="20%" />
-                    Adrian Mateo - Alumno de 2ndo de DAM en Santa Anna Mataró.
+                    Adrian Mateo - Alumne de 2n de DAM al Santa Anna Mataró.
                     </p>
                     <br/>
                     <p>
                     <img src="https://pbs.twimg.com/profile_images/725055056714842114/Go4Xgk3x_400x400.jpg" width="20%" height="20%" />
-                    Adrian Mestres - Alumno de 2ndo de DAM en Santa Anna Mataró.
+                    Adrià Mestres - Alumne de 2n de DAM al Santa Anna Mataró.
                     </p>
                 </div>          
         </div>
