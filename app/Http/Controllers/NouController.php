@@ -8,23 +8,23 @@ class NouController extends Controller
 {
     function calcular(){
         //Obtención de parámetros
-        $input = Input::only('nombre','fechaNacimiento');
-        $nombre = $input['nombre'];
+        $input = Input::only('nom','Date');
+        $nombre = $input['nom'];
 
         //Control de error de nombre
         if($nombre == "")
-            return view('biorritmo.error')->with('values', "Nombre no introducido");
+            return view('biorritmo.404')->with('values', "Nombre no introducido");
 
 
         $todayDate = strftime( "%Y-%m-%d", time() );
         $datetime1 = date_create($todayDate);
-        $datetime2 = date_create($input['fechaNacimiento']);
+        $datetime2 = date_create($input['Date']);
         $dif = date_diff($datetime1,$datetime2);
         $dif = $dif->format('%a');
 
         //Control de error de fecha
         if($datetime1->getTimestamp() - $datetime2->getTimestamp() < 0)
-            return view('biorritmo.error')->with('values', "Fecha mas adelantada que la actual");
+            return view('biorritmo.404')->with('values', "Fecha mas adelantada que la actual");
 
         //Calculo2
         $fisic = round((sin(2*M_PI*($dif/23))*100));
@@ -40,6 +40,6 @@ class NouController extends Controller
     }
 
     function formulario(){
-        return view('biorritmo.form');
+        return view('biorritmo.formulario');
     }
 }

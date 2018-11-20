@@ -43,17 +43,25 @@
 
 			D’entre els bioritmes més característics en l’espècie humana cal esmentar el son i la menstruació. La interrupció o la interferència en els bioritmes pot pot produir conseqüències de tipus patològic en l’organisme. </p>
 		</div>
-        <div>
-            <form action="login.php" method="get">
-    		  <div class="formulario" style=" text-align:center; display: flex; margin-left: 32%">
-    				<p style="margin-right: 2%">Nom: <input type="text" placeholder="Nom" name="nom"><p/>
-    				<p>Data de naixement: <input type="Date" name="data"/></p>  			
-    		  </div>
-              <br>
-                <div class="button1" style="text-align:center;">
-                    <button type="submit" class="btn btn-ttc">Registrar-me</button>
-                </div>
-            </form>
+        
+
+        <div class="container">
+              <h2 style="text-align:center">Entra tus datos: </h2>
+              
+                <form method="get" action="login.php" style=" text-align:center; display: flex; margin-left: 32%">
+                    <div class="text-center">
+                      <label for="text">Nombre:</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Escribir nombre" name="nom">
+                    </div>
+                    <div class="form-group" style="text-align:center; margin-left:5px; margin-right: 5px">
+                      <label for="date">Fecha de Nacimiento:</label>
+                      <input type="date" class="form-control" id="fecha" placeholder="Escribir fecha de nacimiento" name="data">
+                    </div>
+                    <div>
+                        <br/>
+                        <button type="submit" style="margin-top:5px" class="btn btn-ttc">Registrar-me</button>
+                    </div>
+              </form>
         </div>
 	</body>
 </html>

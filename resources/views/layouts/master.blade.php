@@ -101,7 +101,7 @@
                     </p>
                 </div>
                 <br/><br/>
-
+                    @yield('content')
                 <br/>
             
         </div>

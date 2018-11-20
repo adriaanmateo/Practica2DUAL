@@ -38,6 +38,6 @@
             </div>
         </div>
         <br/>
-        <a href="form">Otro intento</a>
+        <a href="formulario">Otro intento</a>
     </div>
 @stop
