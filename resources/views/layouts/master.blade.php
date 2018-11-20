@@ -101,11 +101,7 @@
                     <img src="https://pbs.twimg.com/profile_images/725055056714842114/Go4Xgk3x_400x400.jpg" width="20%" height="20%" />
                     Adrian Mestres - Alumno de 2ndo de DAM en Santa Anna Mataró.
                     </p>
-                </div>
-                <br/><br/>
-                    @yield('content')
-                <br/>
-            
+                </div>          
         </div>
     </body>
 </html>
