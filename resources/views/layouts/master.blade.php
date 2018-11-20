@@ -80,7 +80,7 @@
 
                 <div class="links">
                     <a href="https://es.wikipedia.org/wiki/Biorritmo">¿Que son?</a>
-                    <a href="https://es.wikipedia.org/wiki/Biorritmo#Historia">Historia</a>
+                    <a href="formulari.blade.php">Registrarme</a>
                     <a href="https://es.wikipedia.org/wiki/Biorritmo#Publicaciones_cient%C3%ADficas">Noticias</a>
                 </div>
                 <br/>
