@@ -1,6 +1,4 @@
-
-
-    @extends('master')
+@extends('master')
 @section('header')
 	
     <h1>Pagina de error</h1>
