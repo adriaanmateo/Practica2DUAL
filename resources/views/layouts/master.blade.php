@@ -61,6 +61,8 @@
             }
 
             .m-b-md {
+                margin-left: 10px;
+                margin-top:10px;
                 margin-bottom: 30px;
             }
             p {
