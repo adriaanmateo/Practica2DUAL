@@ -46,15 +46,15 @@
         
 
         <div class="container">
-              <h2 style="text-align:center">Entra tus datos: </h2>
+              <h2 style="text-align:center">Escriu les teves dades: </h2>
               
                 <form method="get" action="login.php" style=" text-align:center; display: flex; margin-left: 32%">
                     <div class="text-center">
-                      <label for="text">Nombre:</label>
+                      <label for="text">Nom:</label>
                       <input type="text" class="form-control" id="nombre" placeholder="Escribir nombre" name="nom">
                     </div>
                     <div class="form-group" style="text-align:center; margin-left:5px; margin-right: 5px">
-                      <label for="date">Fecha de Nacimiento:</label>
+                      <label for="date">Data de naixement:</label>
                       <input type="date" class="form-control" id="fecha" placeholder="Escribir fecha de nacimiento" name="data">
                     </div>
                     <div>
@@ -65,7 +65,7 @@
               </form>
                   <form action="master.blade.php" style=" text-align:center; display: flex; margin-left: 32%">
                     <div style="align-content: center; margin-left: 23%">
-                        <button type="submit" class="btn btn-ttc" style="text-align:center; margin-top:5px" href="master.blade.php">Atras</button>
+                        <button type="submit" class="btn btn-ttc" style="text-align:center; margin-top:5px" href="master.blade.php">Tornar</button>
                     </div>
               </form>
         </div>
