@@ -15,7 +15,7 @@
         <style>
             html, body {
                 background-color: #FFCECE;
-                color: #9B1401;
+                color: #C21902;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -51,7 +51,7 @@
             }
 
             .links > a {
-                color: #9B1401;
+                color:#C21902;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -66,7 +66,7 @@
             p {
                 margin: auto;
                 width: 50%;
-                border: 3px solid #9B1401;
+                border: 3px solid #C21902;
                 padding: 10px;
                 border-radius: 10px;
             }
@@ -101,11 +101,7 @@
                     </p>
                 </div>
                 <br/><br/>
-                <div>
-                    
-                    @yield ('content')
-                    
-                </div>
+
                 <br/>
             
         </div>
