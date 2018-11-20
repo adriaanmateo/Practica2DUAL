@@ -15,7 +15,7 @@
         <style>
             html, body {
                 background-color: #FFCECE;
-                color: #FF4848;
+                color: #9B1401;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -51,7 +51,7 @@
             }
 
             .links > a {
-                color: #FF8A8A;
+                color: #9B1401;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -66,7 +66,7 @@
             p {
                 margin: auto;
                 width: 50%;
-                border: 3px solid red;
+                border: 3px solid #9B1401;
                 padding: 10px;
                 border-radius: 10px;
             }
@@ -85,7 +85,7 @@
                 </div>
                 <br/>
                 <div>
-                    <h3>Biorritmes PROVAAA</h3>
+                    <h3>Biorritmes PROVA</h3>
                     <p>
                     Esta pagina es para poder calcular el biorritmo de las personas segun su fecha de nacimientooo.
                     </p>
