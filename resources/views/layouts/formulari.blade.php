@@ -34,7 +34,7 @@
 		<div class="title" style="color: #C21902 ;margin-bottom: 30px;font-size : 84px" >
 			Calculador de Biorritmes
 		</div>
-		<div class="texto" style="padding: 2%; text-align: justify; border: 1px solid #9B1401; border-radius: 20px; margin: 2%">   <!-- Porcentage = responsive -->
+		<div class="texto" style="padding: 2%; text-align: justify; border: 1px solid #9B1401; border-radius: 20px; border: 3px solid #C21902; margin: 2%">   <!-- Porcentage = responsive -->
 			<p style="color: #C21902;"> Els bioritmes (del grec bios, vida i rhythmos, cadència) denota la variació en la funció i en alguns dels elements estructurals d’un organisme que es dóna de forma periòdica i predictible.
 
 			Els bioritmes són presents en tots els organismes pluricel·lulars. Els bioritmes més generalitzats són els anomenats circadiaris (circadiari),lligats a l'exposició de la llum (alternança dia/nit). Es distingeixen dos tipus de bioritmes, de cicle inferior (batec del cor, moviments respiratoris) i superior (variacions estacionals, amb la consegüent caiguda de les fulles en els arbres caducifolis, letargia d’alguns animals, reproducció, etc.).
