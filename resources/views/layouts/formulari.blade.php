@@ -51,11 +51,11 @@
                 <form method="get" action="login.php" style=" text-align:center; display: flex; margin-left: 32%">
                     <div class="text-center">
                       <label for="text">Nom:</label>
-                      <input type="text" class="form-control" id="nombre" placeholder="Escribir nombre" name="nom">
+                      <input type="text" class="form-control" id="nombre" placeholder="Escriure nom" name="nom">
                     </div>
                     <div class="form-group" style="text-align:center; margin-left:5px; margin-right: 5px">
                       <label for="date">Data de naixement:</label>
-                      <input type="date" class="form-control" id="fecha" placeholder="Escribir fecha de nacimiento" name="data">
+                      <input type="date" class="form-control" id="fecha" placeholder="Escriu data de naixement" name="data">
                     </div>
                     <div>
                         <br/>
