@@ -93,7 +93,7 @@
                     </p>
                     <br/><br/>
                     <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1000px-User_font_awesome.svg.png" width="20%" height="20%" />
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/panel-120472594-image-3c37067ef9f3e67f-320-320.png" width="20%" height="20%" />
                     Adrian Mateo - Alumno de 2ndo de DAM en Santa Anna Mataró.
                     </p>
                     <br/>
