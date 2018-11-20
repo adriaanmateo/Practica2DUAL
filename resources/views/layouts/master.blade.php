@@ -98,7 +98,7 @@
                     </p>
                     <br/>
                     <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1000px-User_font_awesome.svg.png" width="20%" height="20%" />
+                    <img src="https://pbs.twimg.com/profile_images/725055056714842114/Go4Xgk3x_400x400.jpg" width="20%" height="20%" />
                     Adrian Mestres - Alumno de 2ndo de DAM en Santa Anna Mataró.
                     </p>
                 </div>
