@@ -84,6 +84,20 @@
                     <a href="https://es.wikipedia.org/wiki/Biorritmo">¿Què són?</a>
                     <a href="formulari.blade.php">Registrar-me</a>
                     <a href="https://es.wikipedia.org/wiki/Biorritmo#Publicaciones_cient%C3%ADficas">Noticies</a>
+                    <p> <?php 
+                        
+                        if (isset($_POST['nom'])&&isset($_POST['data'])){ 
+                            $nombre = $_POST['nom'];
+                            $fecha = $_POST['data']; 
+                            echo $nombre; 
+                            echo " "; 
+                            echo $fecha;
+                         }else{   
+                         echo "Registrese.";
+                     }
+                        
+                        ?>
+                    </p>
                 </div>
                 <br/>
                 <div>

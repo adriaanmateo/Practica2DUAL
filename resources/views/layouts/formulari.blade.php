@@ -48,7 +48,7 @@
         <div class="container">
               <h2 style="text-align:center">Escriu les teves dades: </h2>
               
-                <form method="get" action="login.php" style=" text-align:center; display: flex; margin-left: 32%">
+                <form method="post" action="master.blade.php" style=" text-align:center; display: flex; margin-left: 32%">
                     <div class="text-center">
                       <label for="text">Nom:</label>
                       <input type="text" class="form-control" id="nombre" placeholder="Escriure nom" name="nom">
