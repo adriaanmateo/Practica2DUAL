@@ -4,17 +4,19 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Http\Request;
 
-class NouController extends Controller
-{
+class NouController {
     function calcular(){
-        //Obtención de parámetros
-        $input = Input::only('nom','Date');
-        $nombre = $input['nom'];
+        //Obtención de parámetros  
+        $nombre = $_GET['nom'];
+        $data = $_GET['data'];
 
         //Control de error de nombre
-        if($nombre == "")
-            return view('biorritmo.404')->with('values', "Nombre no introducido");
-
+        if($nombre == ""){
+            header('../biorritmo/404.blade.php');
+        }
+        else{
+            header('../layouts/master.blade.php');
+        }
 
         $todayDate = strftime( "%Y-%m-%d", time() );
         $datetime1 = date_create($todayDate);

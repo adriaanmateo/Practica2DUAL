@@ -8,5 +8,12 @@ if($nom==null || $data==null){
 }
 else{
 	header('Location: ../layouts/master.blade.php');
+	
 }
 ?>
+
+<form action="Location: ../layouts/master.blade.php" method="post">
+ <input type="hidden" name="nom" value="$nom" />
+ <input type="hidden" name="data" value="$data" />
+ <input type="submit" value="Buscar" />
+</form>

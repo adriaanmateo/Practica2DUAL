@@ -62,8 +62,8 @@
                         <button type="submit" style="margin-top:5px" class="btn btn-ttc">Registrar-me</button>
 
                     </div>
-              </form>
-                  <form action="master.blade.php" style=" text-align:center; display: flex; margin-left: 32%">
+                </form>
+                <form action="master.blade.php" style=" text-align:center; display: flex; margin-left: 32%">
                     <div style="align-content: center; margin-left: 23%">
                         <button type="submit" class="btn btn-ttc" style="text-align:center; margin-top:5px" href="master.blade.php">Tornar</button>
                     </div>

@@ -1,14 +1,14 @@
-
-        @extends('layouts.master')
-        @section('header')
-        @stop
-        @section('content')
+        
+        <?php $__env->startSection('header'); ?>
+        <?php $__env->stopSection(); ?>
+        <?php $__env->startSection('content'); ?>
             <div class="container">
               <h2>Entra tus datos: </h2>
               
                 <form method="post" action="biorritmo/resultado">
                   <div class="text-center">
-                    {{ csrf_field() }}
+                    <?php echo e(csrf_field()); ?>
+
                   <label for="text">Nombre:</label>
                   <input type="text" class="form-control" id="nombre" placeholder="Escribir nombre" name="nombre">
                 </div>
@@ -20,7 +20,9 @@
                 <button type="submit" class="btn btn-default">Enviar</button>
               </form>
             </div>
-        @stop
+        <?php $__env->stopSection(); ?>
 
 
 
+
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
