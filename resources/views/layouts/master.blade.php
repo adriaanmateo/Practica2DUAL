@@ -88,6 +88,9 @@
                         if (isset($_POST['nom'])&&isset($_POST['data'])){ 
                             $nombre = $_POST['nom'];
                             $fecha = $_POST['data']; 
+                            if($nombre==null || $fecha==null){
+                                header('Location: ../biorritmo/404.blade.php');
+                            }
                             echo $nombre; 
                             echo " "; 
                             echo $fecha;
