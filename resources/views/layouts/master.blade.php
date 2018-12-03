@@ -64,7 +64,28 @@
                 margin-left: 10px;
                 margin-top:10px;
                 margin-bottom: 30px;
-            }
+                -webkit-animation-name: example;
+                -webkit-animation-duration: 4s; 
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                }
+
+    @-webkit-keyframes example {
+        0%   {color:#911201;}
+        25%  {color:#000000;}
+        50%  {color:#B81701;}
+        75%  {color:#000000;}
+        100% {color:#F21F02;}
+    }
+    @keyframes example {
+        0%   {color:#911201;}
+        25%  {color:#000000;}
+        50%  {color:#B81701;}
+        75%  {color:#000000;}
+        100% {color:#F21F02;}
+    }
+            
             p {
                 margin: auto;
                 width: 50%;
