@@ -53,7 +53,7 @@
             .links > a {
                 color:#C21902;
                 padding: 0 25px;
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -91,9 +91,7 @@
                             if($nombre==null || $fecha==null){
                                 header('Location: ../biorritmo/404.blade.php');
                             }
-                            echo $nombre; 
-                            echo " "; 
-                            echo $fecha;
+                           echo 'Usuari Registrat: ';echo $nombre; 
                          }else{   
                          echo "Registrese.";
                      }
