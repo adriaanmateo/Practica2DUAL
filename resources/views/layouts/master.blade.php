@@ -87,7 +87,7 @@
                 <br/>
                 <div>
                     <p>
-                    Aquesta pàgina serveix per calcula el biorritme d'una persona a partir de la seva data de naixement.
+                    Aquesta pàgina serveix per calcular el biorritme d'una persona a partir de la seva data de naixement.
                     </p>
                     <br/><br/>
                     <p>
