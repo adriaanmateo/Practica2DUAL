@@ -53,7 +53,7 @@
             .links > a {
                 color:#C21902;
                 padding: 0 25px;
-                font-size: 16px;
+                font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -83,21 +83,6 @@
                     <a href="https://es.wikipedia.org/wiki/Biorritmo">¿Què són?</a>
                     <a href="formulari.blade.php">Registrar-me</a>
                     <a href="https://es.wikipedia.org/wiki/Biorritmo#Publicaciones_cient%C3%ADficas">Noticies</a>
-                    <p> <?php 
-                        
-                        if (isset($_POST['nom'])&&isset($_POST['data'])){ 
-                            $nombre = $_POST['nom'];
-                            $fecha = $_POST['data']; 
-                            if($nombre==null || $fecha==null){
-                                header('Location: ../biorritmo/404.blade.php');
-                            }
-                           echo 'Usuari Registrat: ';echo $nombre; 
-                         }else{   
-                         echo "Registrese.";
-                     }
-                        
-                        ?>
-                    </p>
                 </div>
                 <br/>
                 <div>
